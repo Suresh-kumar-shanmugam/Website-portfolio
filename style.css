@@ -1,0 +1,1031 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:ital,wght@1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+nav
+{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    position: sticky !important;
+    box-shadow: 0 8px 8px rgba(0,0,0,.5);
+    z-index: 1 !important;
+    font-size: 1.3rem;
+    background-color: white;
+    background: linear-gradient(to right,purple,white);
+}
+
+.navbar-brand
+{
+    font-weight: 600;
+}
+
+.navbar img
+{
+    background: transparent;
+    left: 50px;
+}
+
+.nav-link
+{
+    color: black !important;
+    border-bottom: 1px solid transparent;
+    margin-right: 50px;
+}
+
+.nav-link:hover
+{
+    border-bottom: 1px solid black;
+    color: purple;
+}
+
+img
+{
+    background: transparent;
+}
+
+#offers
+{
+    background-color: blue;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    color: white  !important;
+    transition: 0.5s;
+}
+
+#offers:hover
+{
+    background-color: white;
+    border: 2px black solid;
+    color: blue !important;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+
+
+
+
+/* home section */
+
+#home
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 194, 222);
+    height: 100vh;
+
+}
+
+#home .box1
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 600px;
+    overflow: hidden;
+}
+
+#home .image1
+{
+    position: relative;
+    float: right;
+    top: -30px;
+    right: 0%;
+    height: 500px;
+    width: 395px;
+    background: transparent;
+}
+
+#home .second
+{
+    color: purple;
+}
+
+#home button
+{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    background: purple;
+    color: white;
+    border: transparent;
+    transition: 1s;
+}
+
+#home button:hover
+{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    top: 32px;
+    box-shadow: 5px 5px 12px black;
+}
+
+#home .image1 img
+{
+    position: relative;
+    background: transparent;
+    height: 500px;
+    width: 395px;
+    border-radius: 30px;
+}
+
+/* about section */
+
+#mission
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 194, 222);
+    height: 100vh;
+
+}
+
+#mission .box2
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    right: 0%;
+    top: 5%;
+    height: 500px;
+    width: 675px;
+    overflow: hidden;
+    background:rgb(216, 148, 205);
+    padding: 70px;
+}
+
+#mission .box2 h1
+{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+
+#mission .image2
+{
+    position: relative;
+    float: right;
+    top: -50px;
+    left: 10%;
+    height: 450px;
+    width: 450px;
+}
+
+#mission .image2 img
+{
+    height: 450px;
+    width: 280px;
+    border-radius: 30px;
+}
+
+#mission .second
+{
+    color: purple;
+}
+
+#mission button
+{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    background: purple;
+    color: white;
+    border: transparent;
+    transition: 1s;
+}
+
+#mission button:hover
+{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    top: 32px;
+    box-shadow: 5px 5px 12px black;
+}
+
+#mission .image1 img
+{
+    position: relative;
+    border: 2px black solid;
+    background: transparent;
+    height: 500px;
+    width: 395px;
+}
+
+
+
+/* product section */
+
+#vision
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 194, 222);
+    height: 100vh;
+
+}
+
+#vision .box3
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    left: 0%;
+    top: -20%;
+    height: 500px;
+    width: 675px;
+    overflow: hidden;
+    background:rgb(216, 148, 205);
+    padding: 70px;
+}
+
+#vision .box3 h1
+{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+#vision .content2
+{
+    text-align: center;
+    font-size: 1em;
+}
+
+#vision .image3
+{
+    position: relative;
+    float: right;
+    top: -200px;
+    right: 5%;
+    height: 450px;
+    width: 350px;
+}
+
+#vision .image3 img
+{
+    height: 450px;
+    width: 320px;
+    border-radius: 30px;
+}
+
+#vision .second
+{
+    color: purple;
+}
+
+#vision button
+{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    background: purple;
+    color: white;
+    border: transparent;
+    transition: 1s;
+}
+
+#vision button:hover
+{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    top: 32px;
+    box-shadow: 5px 5px 12px black;
+}
+
+
+/* founder */
+
+#founder
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 194, 222);
+    height: 150vh;
+    top: -43%;
+}
+
+#founder .container h1
+{
+    position: relative;
+    top: -170px;
+}
+
+#founder .title_name
+{
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+
+#founder .box4
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    left: 0%;
+    top: -50px;
+    height: 400px;
+    width: 300px;
+    background:white;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#founder .box4:hover
+{
+    box-shadow: 5px 5px 25px black,
+                -5px -5px 25px black;
+    transition: 0.5s;
+}
+
+#founder .box4 h1
+{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: -10px;
+    margin-top: 30px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+#founder .box4 center
+{
+    margin-left: 30px;
+    margin-right: -20px;
+    
+}
+
+#founder .box4 a
+{
+    position: relative;
+    top: 150px;
+    left: -130px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: purple;
+}
+
+#founder .founder1
+{
+    position: absolute;
+    border-radius: 80px;
+    top: -75px;
+    left: 60px;
+    width: 165px;
+    text-align: center;
+}
+
+#founder .founder1 img
+{
+    position: relative;
+    border-radius: 80px;
+    top: 0px;
+}
+
+#founder .box5
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    left: 10%;
+    top: -50px;
+    height: 400px;
+    width: 300px;
+    background:white;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#founder .box5:hover
+{
+    box-shadow: 5px 5px 25px black,
+                -5px -5px 25px black;
+    transition: 0.5s;
+}
+
+#founder .box5 h1
+{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: -10px;
+    margin-top: 20px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+#founder .box5 center
+{
+    margin-left: 30px;
+    margin-right: -20px;
+    
+}
+
+#founder .box5 a
+{
+    position: relative;
+    top: 150px;
+    left: -130px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: purple;
+}
+
+#founder .founder2 
+{
+    position: absolute;
+    border-radius: 80px;
+    top: -75px;
+    left: 60px;
+    width: 165px;
+
+}
+
+#founder .founder2 img
+{
+    position: relative;
+    border-radius: 80px;
+    top: 0px;
+}
+
+#founder .box6
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    left: 20%;
+    top: -50px;
+    height: 400px;
+    width: 300px;
+    background:white;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#founder .box6:hover
+{
+    box-shadow: 5px 5px 25px black,
+                -5px -5px 25px black;
+    transition: 0.5s;
+}
+
+#founder .box6 h1
+{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: -10px;
+    margin-top: 20px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+#founder .box6 center
+{
+    margin-left: 30px;
+    margin-right: -20px;
+    
+}
+
+#founder .box6 a
+{
+    position: relative;
+    top: 150px;
+    left: -130px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: purple;
+}
+
+#founder .founder3 
+{
+    position: absolute;
+    border-radius: 80px;
+    top: -75px;
+    left: 60px;
+    width: 165px;
+
+}
+
+#founder .founder3 img
+{
+    position: relative;
+    border-radius: 80px;
+    top: 0px;
+}
+
+
+/* Awards */
+
+#awards
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 194, 222);
+    height: 80vh;
+    top: -43%;
+}
+
+#awards .container h1
+{
+    position: relative;
+    top: -250px;
+}
+
+#awards .title_name
+{
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+#awards .box4
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: -30px;
+    left: 0%;
+    top: -100px;
+    height: 350px;
+    width: 250px;
+    background:white;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#awards .box4:hover
+{
+    box-shadow: 5px 5px 25px black,
+                -5px -5px 25px black;
+    transition: 0.5s;
+}
+
+#awards .box4 h1
+{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: -10px;
+    margin-top: 30px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+#awards .box4 center
+{
+    margin-left: 30px;
+    margin-right: -20px;
+    
+}
+
+#awards .box4 a
+{
+    position: relative;
+    top: 150px;
+    left: -105px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: purple;
+}
+
+#awards .founder1
+{
+    position: absolute;
+    top: -75px;
+    left: 0px;
+    width: 250px;
+    background-color: white;
+    border-radius: 80px;
+    text-align: center;
+}
+
+#awards .founder1 img
+{
+    position: relative;
+    border-radius: 80px;
+    top: 0px;
+    width: 200px;
+}
+
+#awards .box5
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: -50px;
+    left: 10%;
+    top: -100px;
+    height: 350px;
+    width: 250px;
+    background:white;
+    transition: 0.5s;
+}
+
+#awards .box5:hover
+{
+    box-shadow: 5px 5px 25px black,
+                -5px -5px 25px black;
+    transition: 0.5s;
+}
+
+#awards .box5 h1
+{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: -10px;
+    margin-top: 20px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+#awards .box5 center
+{
+    margin-left: 30px;
+    margin-right: -20px;
+    
+}
+
+#awards .box5 a
+{
+    position: relative;
+    top: 150px;
+    left: -105px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: purple;
+}
+
+#awards .founder2 
+{
+    position: absolute;
+    border-radius: 80px;
+    top: -75px;
+    left: 0px;
+    width: 165px;
+
+}
+
+#awards .founder2 img
+{
+    position: relative;
+    border-radius: 80px;
+    top: 0px;
+}
+
+#awards .box6
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    left: 20%;
+    top: -100px;
+    margin-left: -50px;
+    height: 350px;
+    width: 250px;
+    background:white;
+    transition: 0.5s;
+}
+
+#awards .box6:hover
+{
+    box-shadow: 5px 5px 25px black,
+                -5px -5px 25px black;
+    transition: 0.5s;
+}
+
+#awards .box6 h1
+{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: -10px;
+    margin-top: 20px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+#awards .box6 center
+{
+    margin-left: 30px;
+    margin-right: -20px;
+    
+}
+
+#awards .box6 a
+{
+    position: relative;
+    top: 150px;
+    left: -100px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: purple;
+}
+
+#awards .founder3 
+{
+    position: absolute;
+    border-radius: 80px;
+    top: -75px;
+    left: 0px;
+    width: 165px;
+    width: 250px;
+    background-color: white;
+    border-radius: 80px;
+}
+
+#awards .founder3 img
+{
+    position: relative;
+    border-radius: 80px;
+    top: 0px;
+    left: 30px;
+}
+
+#awards .box7
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    left: 20%;
+    top: -100px;
+    margin-left: 50px;
+    height: 350px;
+    width: 250px;
+    background:white;
+    transition: 0.5s;
+}
+
+#awards .box7:hover
+{
+    box-shadow: 5px 5px 25px black,
+                -5px -5px 25px black;
+    transition: 0.5s;
+}
+
+#awards .box7 h1
+{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: -10px;
+    margin-top: 20px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+#awards .box7 center
+{
+    margin-left: 30px;
+    margin-right: -20px;
+    
+}
+
+#awards .box7 a
+{
+    position: relative;
+    top: 150px;
+    left: -110px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: purple;
+}
+
+#awards .founder4 
+{
+    position: absolute;
+    border-radius: 80px;
+    top: -75px;
+    left: 0px;
+    width: 165px;
+    width: 250px;
+    background-color: white;
+    border-radius: 80px;
+}
+
+#awards .founder4 img
+{
+    position: relative;
+    border-radius: 80px;
+    top: 20px;
+    left: 55px;
+}
+
+
+
+/* contact */
+
+#contact
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    top: -43%;
+    height: 0vh;
+}
+
+#contact .about 
+{
+    margin-top: 400px;
+    margin-left: 0px;
+    margin-right: 82%;
+    color: purple;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+#contact .box1
+{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 0px;
+    line-height: 40px;
+    
+}
+
+#contact .box1 a
+{
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    color: purple;
+    font-weight: bolder;
+}
+
+#contact .box1 a:hover
+{
+    color: red;
+}
+
+#contact .help 
+{
+    margin-top: -31%;
+    margin-left: 300px;
+    margin-right: 55%;
+    color: purple;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+#contact .box2
+{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    margin-top: 15px;
+    margin-right: 580px;
+    text-align: left;
+    line-height: 40px;
+    float: right;
+}
+
+#contact .box2 a
+{
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    color: purple;
+    font-weight: bolder;
+}
+
+#contact .box2 a:hover
+{
+    color: red;
+}
+
+#contact .follow
+{
+    margin-top: -10px;
+    margin-right: -70%;
+    color: purple;
+    font-weight: bolder;
+    float: right;
+    font-size: 1.5em;
+}
+
+#contact .box3
+{
+    position: relative;
+    height: 100px;
+    width: 250px;
+    float: right;
+    right: -77%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#contact .box3 a
+{
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+
+/* footer */
+
+#footer .nav-bar ul
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#footer .nav-bar li
+{
+    float: right;
+}
+
+#footer .nav-bar li
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+
